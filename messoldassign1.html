@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dropdown Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/af8ededad6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">LOGO</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span class="hamburger">&#9776;</span>
+                <span class="close-btn">&#10006;</span>
+            </div>
+            <ul class="nav-links">
+
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Shop</a>
+                    <div class="nav-row">
+                        <ul class="dropdown-content">
+                            <li><a href="#">HOME DECOR</a></li>
+                            <li><a href="#">FESTIVAL DECOR</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#">URLI</a></li>
+                            <li><a href="#">BRASS DECOR</a></li>
+                            <li><a href="#">MARBLE DECOR</a></li>
+                            <li><a href="#">LAMPS & LANTERNS</a></li>
+                            <li><a href="#">CENTERPIECES</a></li>
+                            <li><a href="#">CANDLES & DIYAS</a></li>
+                            <li><a href="#">CUSHIONS</a></li>
+                            <li><a href="#">SILVER DECOR</a></li>
+                            <li><a href="#"></a>VASTU & YANTRA </li>
+                            <li><a href="#"></a>TABLE LINEN</li>
+                            <li><a href="#">TABLEWARE & SERVEWARE</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Home Decor</a>
+                    <div class="nav-row">
+                        <ul class="dropdown-content">
+                            <li><a href="#">VIEW ALL</a></li>
+                            <li><a href="#">URLIS</a></li>
+                            <li><a href="#">LAMPS & LANTERNS LIGHTING</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Festive Decor</a></li>
+                <li><a href="#">Corporate Gifting</a></li>
+            </ul>
+            <div class="search-section">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!--home-->
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://cdn.shopify.com/videos/c/o/v/02f62dd338b041b9960d79ea514773ee.mp4" type="video/mp4">
+
+        </video>
+    </div>
+    <div class="content">
+        <a href="https://wa.me/918703988759" class="bottom-right-button"><i class="fa-brands fa-whatsapp"></i></a>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
